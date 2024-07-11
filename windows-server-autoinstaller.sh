@@ -43,6 +43,12 @@ case $choice in
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195443&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2012.iso"
         ;;
+    4)
+        # Windows 2010
+        img_file="windows2010.img"
+        iso_link="https://mega.nz/file/ELBxwISD#ZhALWVoo4sLdUwcfLSZbSka3HoRYE2m5it7WAWCJREE"
+        iso_file="windows2010.iso"
+        ;;
     *)
         echo "Invalid choice. Exiting."
         exit 1
